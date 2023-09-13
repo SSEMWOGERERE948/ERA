@@ -4,12 +4,16 @@
     "slug": "EraFinal",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "scheme": "era.app12",
+    "icon": "./assets/era.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/era.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBZmokI5GnHkd2rZIev1a9XY4E6KmcgKNs"
+      }
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,13 +22,21 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
+      "package_name": "era.app12",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.trevorsimon.EraFinal"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a15233fc-7d50-493d-95f9-1f72c2150459"
+      }
     }
   }
 }

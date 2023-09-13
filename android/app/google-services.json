@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "881132105565",
+    "project_id": "era-alert",
+    "storage_bucket": "era-alert.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881132105565:android:3145789c6ec6ba65fe42b4",
+        "android_client_info": {
+          "package_name": "com.trevorsimon.EraFinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881132105565-1qoi9i89600hemmg42firvkrmikf4jpb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trevorsimon.EraFinal",
+            "certificate_hash": "81fec5708468c165b4d869146314d36ef6a54797"
+          }
+        },
+        {
+          "client_id": "881132105565-si3q5i1t3i38itnadj5l22221lpn0vra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trevorsimon.EraFinal",
+            "certificate_hash": "916e69da2c245b294806eb7b883d2b016955c90b"
+          }
+        },
+        {
+          "client_id": "881132105565-b11lfka3i4v7i74j91s9h61httnosfn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLi03mcbC2d546Yv5TcpTjrH8c2Oe7Mo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881132105565-b11lfka3i4v7i74j91s9h61httnosfn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
